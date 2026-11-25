@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Prisma Postgres online
+
+This project uses Prisma ORM 6 with Prisma Postgres. Copy `.env.example` to `.env`, then replace `DATABASE_URL` with a fresh direct connection string from Prisma Console (pooling disabled). Keep the password private.
+
+The current Prisma schema is ready for PostgreSQL. To create its tables in a new, empty online database, run:
+
+```bash
+npx prisma db push
+npx prisma generate
+```
+
+This creates the schema but does not copy data from the old local SQLite database (`prisma/dev.db`).
+
 ## Getting Started
 
 First, run the development server:
