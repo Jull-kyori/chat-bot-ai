@@ -5,11 +5,15 @@ import Link from "next/link";
 import { signOut } from "next-auth/react";
 import {
   ChevronDown,
+  Code2,
+  FolderKanban,
+  Layers3,
   LogOut,
   MoreHorizontal,
   PanelLeftClose,
   Pencil,
   Pin,
+  Plug,
   Plus,
   Search,
   Sun,
@@ -44,9 +48,11 @@ interface SidebarProps {
   onDeleteChat?: (id: string) => void;
 }
 
-const MENU_ITEMS = [
-  { id: "search", label: "Cari", icon: Search, shortcut: "Ctrl+K" },
-  { id: "pinned", label: "Chat disematkan", icon: Pin },
+const WORKSPACE_ITEMS = [
+  { href: "/projects", label: "Proyek", icon: FolderKanban },
+  { href: "/artifacts", label: "Artefak", icon: Layers3 },
+  { href: "/code", label: "Code", icon: Code2 },
+  { href: "/plugins", label: "Plugin", icon: Plug },
 ];
 
 /**
@@ -154,31 +160,35 @@ export function Sidebar({
         </button>
 
         <nav className="pt-1 space-y-0.5" aria-label="Navigasi utama">
-          {MENU_ITEMS.map((item) => {
+          <button
+            type="button"
+            onClick={() => { onOpenSearch?.(); onCloseMobile(); }}
+            className="flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm text-text-secondary transition-colors hover:bg-bg-elevated/60 hover:text-text-primary cursor-pointer"
+          >
+            <span className="flex items-center gap-2.5"><Search className="h-4 w-4 shrink-0" /><span>Cari</span></span>
+            <kbd className="hidden sm:inline-block rounded-md border border-border-subtle bg-bg-main/60 px-1.5 py-0.5 text-[10px] font-mono text-text-muted">Ctrl+K</kbd>
+          </button>
+          {WORKSPACE_ITEMS.map((item) => {
             const Icon = item.icon;
             return (
-              <button
-                key={item.id}
-                type="button"
-                onClick={() => {
-                  if (item.id === "search") onOpenSearch?.();
-                  if (item.id === "pinned") setFilterMode((current) => current === "pinned" ? "all" : "pinned");
-                  onCloseMobile();
-                }}
-                className={cn("flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm transition-colors hover:bg-bg-elevated/60 hover:text-text-primary cursor-pointer", item.id === "pinned" && filterMode === "pinned" ? "bg-bg-elevated/60 text-text-primary" : "text-text-secondary")}
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={onCloseMobile}
+                className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2 text-sm text-text-secondary transition-colors hover:bg-bg-elevated/60 hover:text-text-primary"
               >
-                <span className="flex items-center gap-2.5">
-                  <Icon className="h-4 w-4 shrink-0" />
-                  <span>{item.label}</span>
-                </span>
-                {item.shortcut && (
-                  <kbd className="hidden sm:inline-block rounded-md border border-border-subtle bg-bg-main/60 px-1.5 py-0.5 text-[10px] font-mono text-text-muted">
-                    {item.shortcut}
-                  </kbd>
-                )}
-              </button>
+                <Icon className="h-4 w-4 shrink-0" />
+                <span>{item.label}</span>
+              </Link>
             );
           })}
+          <button
+            type="button"
+            onClick={() => { setFilterMode((current) => current === "pinned" ? "all" : "pinned"); onCloseMobile(); }}
+            className={cn("flex w-full items-center gap-2.5 rounded-xl px-3 py-2 text-sm transition-colors hover:bg-bg-elevated/60 hover:text-text-primary cursor-pointer", filterMode === "pinned" ? "bg-bg-elevated/60 text-text-primary" : "text-text-secondary")}
+          >
+            <Pin className="h-4 w-4 shrink-0" /><span>Chat disematkan</span>
+          </button>
         </nav>
       </div>
 
