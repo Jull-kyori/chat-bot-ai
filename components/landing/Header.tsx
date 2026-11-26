@@ -36,7 +36,7 @@ export function Header() {
             onClick={scrollToLogin}
             className="inline-flex items-center justify-center rounded-lg bg-bg-btn-primary px-3.5 py-1.5 text-xs font-medium text-text-btn-primary transition-colors hover:bg-bg-btn-primary-hover cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-coral/50"
           >
-            Coba NamaBot
+            Coba VerapritygurlAI
           </button>
         </div>
       </div>

@@ -12,19 +12,19 @@ interface FaqItem {
 
 const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "Apa itu NamaBot dan bagaimana cara kerjanya?",
+    question: "Apa itu VerapritygurlAI dan bagaimana cara kerjanya?",
     answer:
-      "NamaBot adalah asisten kecerdasan buatan yang dirancang untuk membantu Anda berpikir, menulis, menganalisis data, dan menyusun kode. Anda cukup mengetikkan pertanyaan atau melampirkan dokumen, lalu NamaBot merespons secara real-time dengan penalaran yang terstruktur dan kontekstual.",
+      "VerapritygurlAI adalah asisten kecerdasan buatan yang dirancang untuk membantu Anda berpikir, menulis, menganalisis data, dan menyusun kode. Anda cukup mengetikkan pertanyaan atau melampirkan dokumen, lalu VerapritygurlAI merespons secara real-time dengan penalaran yang terstruktur dan kontekstual.",
   },
   {
-    question: "Untuk apa saya menggunakan NamaBot?",
+    question: "Untuk apa saya menggunakan VerapritygurlAI?",
     answer:
-      "Anda dapat memakai NamaBot untuk merangkum artikel atau riset panjang, menyusun draf email dan laporan, melakukan brainstorming ide produk, menulis serta meninjau kode program, hingga mempelajari topik baru secara interaktif.",
+      "Anda dapat memakai VerapritygurlAI untuk merangkum artikel atau riset panjang, menyusun draf email dan laporan, melakukan brainstorming ide produk, menulis serta meninjau kode program, hingga mempelajari topik baru secara interaktif.",
   },
   {
     question: "Berapa biaya penggunaannya?",
     answer:
-      "NamaBot tersedia gratis melalui paket Free untuk penggunaan harian dasar. Jika Anda membutuhkan kapasitas pesan lebih besar, model lanjutan, fitur Proyek, dan coding agent, Anda dapat meningkatkan ke paket Pro mulai $17/bulan atau paket Max dan Ultra.",
+      "VerapritygurlAI tersedia gratis melalui paket Free untuk penggunaan harian dasar. Jika Anda membutuhkan kapasitas pesan lebih besar, model lanjutan, fitur Proyek, dan coding agent, Anda dapat meningkatkan ke paket Pro mulai $17/bulan atau paket Max dan Ultra.",
   },
 ];
 

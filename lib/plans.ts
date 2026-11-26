@@ -24,10 +24,10 @@ export const PLANS_BY_AUDIENCE: Record<PlanAudience, PlanTier[]> = {
     {
       id: "free",
       name: "Free",
-      tagline: "Coba NamaBot",
+      tagline: "Coba VerapritygurlAI",
       price: "$0",
       priceNote: "Gratis untuk semua orang",
-      ctaLabel: "Coba NamaBot",
+      ctaLabel: "Coba VerapritygurlAI",
       footnote: "Tanpa komitmen · Batalkan kapan saja",
       features: [
         "Chat di web, desktop, dan seluler",
@@ -43,7 +43,7 @@ export const PLANS_BY_AUDIENCE: Record<PlanAudience, PlanTier[]> = {
       tagline: "Untuk pekerjaan sehari-hari",
       price: "$17",
       priceNote: "per bulan (diskon langganan tahunan)",
-      ctaLabel: "Coba NamaBot",
+      ctaLabel: "Coba VerapritygurlAI",
       footnote: "Tanpa komitmen · Batalkan kapan saja",
       featuresTitle: "Semua yang ada di Free, ditambah:",
       features: [
@@ -58,10 +58,10 @@ export const PLANS_BY_AUDIENCE: Record<PlanAudience, PlanTier[]> = {
     {
       id: "max-ultra",
       name: "Max dan Ultra",
-      tagline: "Untuk orang-orang yang bekerja dengan NamaBot sepanjang hari",
+      tagline: "Untuk orang-orang yang bekerja dengan VerapritygurlAI sepanjang hari",
       price: "Mulai dari $100",
       priceNote: "per bulan",
-      ctaLabel: "Coba NamaBot",
+      ctaLabel: "Coba VerapritygurlAI",
       footnote: "Tanpa komitmen · Batalkan kapan saja",
       featuresTitle: "Semua yang ada di Pro, ditambah:",
       features: [
@@ -80,7 +80,7 @@ export const PLANS_BY_AUDIENCE: Record<PlanAudience, PlanTier[]> = {
       tagline: "Untuk tim kecil yang berkolaborasi setiap hari",
       price: "$25",
       priceNote: "per pengguna / bulan (penagihan tahunan)",
-      ctaLabel: "Coba NamaBot",
+      ctaLabel: "Coba VerapritygurlAI",
       footnote: "Minimal 5 anggota · Kelola akses terpusat",
       features: [
         "Semua fitur paket Pro untuk setiap anggota",

@@ -10,12 +10,12 @@ export default function PrivacyPage() {
         </Link>
         <h1 className="font-serif text-3xl font-normal mb-4">Kebijakan Privasi</h1>
         <p className="text-sm leading-relaxed text-text-secondary mb-4">
-          NamaBot menghormati privasi Anda. Informasi akun dan riwayat percakapan
+          VerapritygurlAI menghormati privasi Anda. Informasi akun dan riwayat percakapan
           digunakan semata-mata untuk menyediakan layanan asisten AI yang aman dan
           personal.
         </p>
         <p className="text-sm leading-relaxed text-text-secondary mb-8">
-          Halaman ini adalah ringkasan kebijakan privasi untuk aplikasi NamaBot.
+          Halaman ini adalah ringkasan kebijakan privasi untuk aplikasi VerapritygurlAI.
         </p>
         <Link
           href="/login"

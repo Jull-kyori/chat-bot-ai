@@ -224,7 +224,7 @@ export function ChatWorkspace({
           error?: string;
         };
         throw new Error(
-          errData.error || "Gagal mendapatkan respons dari NamaBot."
+          errData.error || "Gagal mendapatkan respons dari VerapritygurlAI."
         );
       }
 
@@ -585,10 +585,10 @@ export function ChatWorkspace({
                     isStreaming={isStreaming}
                     onSend={handleSend}
                     onStop={handleStop}
-                    placeholder="Balas NamaBot..."
+                    placeholder="Balas VerapritygurlAI..."
                   />
                   <p className="mt-2 text-center text-[11px] text-text-muted">
-                    NamaBot dapat membuat kekeliruan. Periksa kembali informasi penting.
+                    VerapritygurlAI dapat membuat kekeliruan. Periksa kembali informasi penting.
                   </p>
                 </div>
               </div>

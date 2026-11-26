@@ -165,7 +165,7 @@ export function ChatInput({
         }}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        aria-label="Ketik pesan untuk NamaBot"
+                aria-label="Ketik pesan untuk VerapritygurlAI"
         className="max-h-[200px] min-h-[44px] w-full resize-none bg-transparent px-1.5 py-1 text-sm sm:text-[15px] leading-relaxed text-text-primary placeholder:text-text-secondary focus:outline-none"
       />
 

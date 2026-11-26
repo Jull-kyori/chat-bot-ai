@@ -16,9 +16,9 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: "NamaBot — Mitra Berpikir AI Anda",
+  title: "VerapritygurlAI — Mitra Berpikir AI Anda",
   description:
-    "Jelajahi apa yang akan datang bersama NamaBot, asisten AI modern untuk berpikir, menulis, dan berkarya.",
+    "Jelajahi VerapritygurlAI, asisten AI modern untuk berpikir, menulis, dan berkarya.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

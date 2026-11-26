@@ -277,7 +277,7 @@ export function LoginCard() {
         >
           Kebijakan Privasi
         </Link>{" "}
-        NamaBot.
+        VerapritygurlAI.
       </p>
     </div>
   );

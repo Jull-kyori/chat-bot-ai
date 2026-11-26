@@ -5,7 +5,7 @@ import { FaqSection } from "@/components/landing/FaqSection";
 import { Footer } from "@/components/landing/Footer";
 
 /**
- * Halaman Login & Landing utama NamaBot (/login).
+ * Halaman Login & Landing utama VerapritygurlAI (/login).
  * Urutan: Header, Hero, Paket, FAQ, Footer.
  */
 export default function LoginPage() {

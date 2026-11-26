@@ -12,7 +12,7 @@ interface BrandLogoProps {
 }
 
 /**
- * Logo khas NamaBot: emblem bintang-kelopak geometris oranye-coral + tipografi serif.
+ * Logo khas VerapritygurlAI: emblem bintang-kelopak geometris oranye-coral + tipografi serif.
  * Mendukung animasi rotasi halus saat AI sedang memproses/streaming.
  */
 export function BrandLogo({
@@ -61,7 +61,7 @@ export function BrandLogo({
             textClassName
           )}
         >
-          NamaBot
+          VerapritygurlAI
         </span>
       )}
     </span>

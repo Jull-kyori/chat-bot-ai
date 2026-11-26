@@ -94,7 +94,7 @@ export function Hero() {
                     Ruang Ide &amp; Catatan
                   </p>
                   <p className="mt-2 max-w-xs text-sm text-text-secondary">
-                    Susun gagasan, riset, dan draf tulisan Anda bersama NamaBot.
+                    Susun gagasan, riset, dan draf tulisan Anda bersama VerapritygurlAI.
                   </p>
                 </div>
               )}
@@ -106,7 +106,7 @@ export function Hero() {
               <div className="absolute right-16 bottom-4 left-4 rounded-2xl border border-white/10 bg-black/55 px-4 py-3 backdrop-blur-md">
                 <div className="flex items-center gap-2 text-[11px] font-medium text-accent-coral">
                   <Sparkles className="h-3.5 w-3.5" />
-                  <span>NamaBot Workspace</span>
+                  <span>VerapritygurlAI Workspace</span>
                 </div>
                 <p className="mt-1 truncate text-xs text-white/90">
                   &ldquo;Rangkum catatan riset ini menjadi peta jalan produk Q3...&rdquo;

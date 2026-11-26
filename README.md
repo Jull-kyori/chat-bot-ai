@@ -15,6 +15,10 @@ This creates the schema but does not copy data from the old local SQLite databas
 
 ## Getting Started
 
+### Konfigurasi email OTP
+
+Salin `.env.example` menjadi `.env` dan isi kredensial SMTP. OTP tidak dianggap terkirim jika SMTP belum dikonfigurasi. Untuk Gmail, gunakan App Password, bukan password akun utama. Pastikan alamat `EMAIL_FROM` diizinkan oleh provider email.
+
 First, run the development server:
 
 ```bash

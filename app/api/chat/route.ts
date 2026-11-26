@@ -106,8 +106,8 @@ export async function POST(req: Request) {
             stream: true,
             system:
               mode === "cowork"
-                ? "Anda adalah rekan kerja NamaBot berbahasa Indonesia. Bantu pengguna menyelesaikan pekerjaan secara kolaboratif, ajukan klarifikasi bila perlu, dan berikan hasil terstruktur yang siap dipakai."
-                : "Anda adalah NamaBot, asisten AI berbahasa Indonesia yang ramah, ringkas, dan akurat.",
+                ? "Anda adalah rekan kerja VerapritygurlAI berbahasa Indonesia. Bantu pengguna menyelesaikan pekerjaan secara kolaboratif, ajukan klarifikasi bila perlu, dan berikan hasil terstruktur yang siap dipakai."
+                : "Anda adalah VerapritygurlAI, asisten AI berbahasa Indonesia yang ramah, ringkas, dan akurat.",
             messages: messages.map((m) => ({
               role: m.role,
               content: [
@@ -196,8 +196,8 @@ export async function POST(req: Request) {
             {
               role: "system",
               content: mode === "cowork"
-                ? "Anda adalah rekan kerja NamaBot berbahasa Indonesia. Bantu pengguna menyelesaikan pekerjaan secara kolaboratif, ajukan klarifikasi bila perlu, dan berikan hasil terstruktur yang siap dipakai."
-                : "Anda adalah NamaBot, asisten AI berbahasa Indonesia yang ramah, ringkas, dan akurat.",
+                ? "Anda adalah rekan kerja VerapritygurlAI berbahasa Indonesia. Bantu pengguna menyelesaikan pekerjaan secara kolaboratif, ajukan klarifikasi bila perlu, dan berikan hasil terstruktur yang siap dipakai."
+                : "Anda adalah VerapritygurlAI, asisten AI berbahasa Indonesia yang ramah, ringkas, dan akurat.",
             },
             ...messages.map((message) => ({
               role: message.role,

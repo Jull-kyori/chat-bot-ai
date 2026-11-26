@@ -5,7 +5,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { verifyOtp } from "@/lib/otp-store";
 
 export const AUTH_SECRET =
-  process.env.NEXTAUTH_SECRET || "namabot-dev-secret-change-in-production";
+  process.env.NEXTAUTH_SECRET || "verapritygurlai-dev-secret-change-in-production";
 
 const providers: NextAuthOptions["providers"] = [];
 

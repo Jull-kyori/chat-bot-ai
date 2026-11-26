@@ -11,7 +11,7 @@ const FOOTER_COLUMNS: FooterGroup[][] = [
     {
       title: "Produk",
       links: [
-        { label: "NamaBot Web", href: "#" },
+        { label: "VerapritygurlAI Web", href: "#" },
         { label: "Aplikasi Desktop", href: "#" },
         { label: "Aplikasi Seluler", href: "#" },
         { label: "Harga", href: "#pricing" },
@@ -35,9 +35,9 @@ const FOOTER_COLUMNS: FooterGroup[][] = [
     {
       title: "Model",
       links: [
-        { label: "NamaBot Cepat", href: "#" },
-        { label: "NamaBot Penalaran", href: "#" },
-        { label: "NamaBot Pro", href: "#" },
+        { label: "VerapritygurlAI Cepat", href: "#" },
+        { label: "VerapritygurlAI Penalaran", href: "#" },
+        { label: "VerapritygurlAI Pro", href: "#" },
       ],
     },
   ],
@@ -128,7 +128,7 @@ const FOOTER_COLUMNS: FooterGroup[][] = [
 ];
 
 /**
- * Footer halaman /login dengan branding NamaBot di kiri dan grid 4 kolom tautan di kanan.
+ * Footer halaman /login dengan branding VerapritygurlAI di kiri dan grid 4 kolom tautan di kanan.
  */
 export function Footer() {
   return (
@@ -143,7 +143,7 @@ export function Footer() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-xs text-text-secondary">
-                <span className="font-medium text-text-primary">NamaBot</span>
+                <span className="font-medium text-text-primary">VerapritygurlAI</span>
                 <span>© 2026</span>
               </div>
 
